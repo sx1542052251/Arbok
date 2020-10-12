@@ -1,0 +1,77 @@
+.gn_box {
+	margin-bottom: 70px;
+}
+
+.gn_box h3 {
+	margin: 50px 0px 0px;
+	padding: 0px;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: 微软雅黑, arial, 'Hiragino Sans GB';
+	white-space: normal;
+	line-height: 24px;
+	color: rgb(247, 60, 63);
+	text-align: center;
+	background-color: rgb(255, 255, 255);
+}
+
+.gn_box>p span {
+	font-family: 微软雅黑, 'Microsoft YaHei';
+	font-size: 18px;
+	line-height: 30px;
+	width: 600px;
+	text-align: left;
+}
+
+.gn_box>p {
+	text-align: center;
+}
+
+.gj_box img {
+	margin: 20px 0;
+}
+
+.gj_box p {
+	text-align: center;
+}
+
+.gj_box p span {
+	font-size: 12px;
+	color: rgb(63, 63, 63);
+}
+
+.ch_box{
+	text-align: center;
+	line-height: 90px;
+	padding-bottom: 290px;
+}
+
+.ch_box p {
+	font-size: 32pt;
+	font-family: 隶书;
+	color: rgb(89, 89, 89);
+	text-transform: uppercase;
+	vertical-align: baseline;
+}
+
+.ch_box span {
+	font-family: 隶书;
+	color: rgb(89, 89, 89);
+	text-transform: uppercase;
+	vertical-align: baseline;
+	font-size: 36px;
+}
+
+.chp,.chp span{
+	font-size: 18px!important;
+	line-height: 50px!important;
+	text-align: left!important;
+}
+
+@media screen and (min-width: 1101px) {}
+
+@media screen and (min-width: 761px) and (max-width:1100px) {}
+
+@media screen and (min-width: 641px) and (max-width:760px) {}
+
+@media screen and (max-width: 640px) {}

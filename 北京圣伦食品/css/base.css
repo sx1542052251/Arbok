@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	color: #666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+hr,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+table,
+form {
+	display: block;
+}
+
+ul li {
+	list-style: none;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	outline: none;
+	color: #333;
+}
+
+img {
+	vertical-align: middle;
+	border: none;
+	max-width: 100%;
+}
+
+span {
+	display: inline-block;
+}
+
+.clear {
+	clear: both;
+}
+
+.clearfix:after {
+	content: '.';
+	display: block;
+	height: 0;
+	line-height: 0;
+	overflow: hidden;
+	visibility: hidden;
+	clear: both;
+}
+
+.pleft {
+	float: left;
+}
+
+.pright {
+	float: right;
+}
+
+.ellipsis {
+	white-space: nowrap;
+	/*空白不换行*/
+	overflow: hidden;
+	/*溢出隐藏*/
+	text-overflow: ellipsis;
+	/*超出去的文本以省略号的形式显示*/
+}
+
+.pro-head-active {
+	background: #F73C3F;
+	color: #FFFFFF;
+	border: 1px solid #F73C3F !important;
+}
+
+.tl1 {
+	opacity: 0;
+	transform: translateX(-50px);
+	transition: all .3s linear;
+}
+
+.tl2 {
+	opacity: 1;
+	transform: translate(0);
+	transition: all .3s linear;
+}
+
+.tr1 {
+	opacity: 0;
+	transform: translateX(50px);
+	transition: all .3s linear;
+}
+
+.tt1 {
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all .3s linear;
+}
+
+.tt2 {
+	opacity: 1;
+	transform: translateY(0px);
+	transition: all .3s linear;
+}
