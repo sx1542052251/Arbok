@@ -1,0 +1,335 @@
+.can {
+	background: #fafafa;
+	width: 100%;
+	min-height: 663px;
+	padding-top: 80px;
+}
+
+.titless {
+	background: url(../images/headxian.png) center center no-repeat;
+	width: 100%;
+	margin: 0px 0px 30px 0px;
+}
+
+.title_heads {
+	font-size: 30px;
+	width: 100%;
+	text-align: center;
+	font-weight: normal;
+}
+
+.title_ps {
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+}
+
+.can_img {
+	width: 262px;
+	margin: 0 auto 20px;
+	background: url(../images/cabg.png) left top no-repeat;
+	transition: all 1s ease 0s;
+}
+
+.can_img p {
+	width: 233px;
+	margin: 10px auto 0px;
+	overflow: hidden;
+	transition: all 0.6s ease 0s;
+}
+
+.can_img p img {
+	width: 233px;
+	height: 328px;
+	display: inline-block;
+	margin-bottom: 20px;
+	transition: all 0.6s ease 0s;
+}
+
+.can_img:hover {
+	transform: translateY(-10px);
+	transition: all 0.6s ease 0s;
+}
+
+.lin {
+	display: inline-block;
+	width: 100%;
+	line-height: 46px;
+	font-size: 18px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #F73C3F;
+}
+
+.tui {
+	width: 96%;
+	margin: 80px auto 0px;
+}
+
+.can_p,
+.can_pp {
+	width: 100%;
+}
+
+.can_p li {
+	width: 33.3333%;
+	float: left;
+	height: 262px;
+	position: relative;
+}
+
+.can_p li img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+	border: 0px solid #FFFFFF;
+	box-shadow: 0 0 0px #000000;
+	transition: all 0.8s ease 0s;
+}
+
+.can_p li img:hover,
+.can_pp li img:hover {
+	border: 5px solid #FFFFFF;
+	z-index: 1;
+	top: -5px;
+	left: -5px;
+	box-shadow: 0 0 5px #000000;
+	transition: all 0.2s ease 0s;
+	transform: scale(1.1, 1.1);
+}
+
+.can_p span,
+.can_pp span {
+	display: inline-block;
+	width: 130px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	margin-left: -65px;
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: 20px;
+	display: none;
+}
+
+.can_p li:hover span,
+.can_pp li:hover span {
+	display: block;
+	z-index: 3;
+}
+
+.can_pp li {
+	width: 25%;
+	float: left;
+	height: 196.4px;
+	position: relative;
+}
+
+.can_pp li img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: inline-block;
+	border: 0px solid #FFFFFF;
+	box-shadow: 0 0 0px #000000;
+	transition: all 0.8s ease 0s;
+}
+
+.foods {
+	margin: 58px auto 90px !important;
+}
+
+.foods_left {
+	width: 570px;
+	float: left;
+	margin-left: 40px;
+}
+
+.foods_left h3 {
+	width: 100%;
+	font-size: 30px;
+	color: #333333;
+	font-weight: normal;
+}
+
+.foods_left h3 span {
+	font-size: 16px;
+	color: #D8D8D8;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.foods_left p {
+	font-size: 14px;
+	line-height: 26px;
+	text-indent: 28px;
+	margin: 30px auto 20px;
+}
+
+.foods_left a {
+	font-size: 16px;
+	color: #FFFFFF;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #F73C3F;
+	border-radius: 6px;
+	display: inline-block;
+}
+
+.foods_right {
+	width: 395px;
+	float: right;
+	margin-right: 10px;
+	text-align: center;
+	border: 1px dashed #F73C3F;
+}
+
+.foods_img {
+	width: 365px;
+	height: 260.7px;
+	margin: 11px auto;
+	position: relative;
+}
+
+.foods_img img {
+	width: 100%;
+	height: 100%;
+}
+
+.foods_img span {
+	display: inline-block;
+	width: 130px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	margin-left: -65px;
+	background-color: rgba(0, 0, 0, .3);
+	border-radius: 20px;
+}
+
+@media screen and (min-width: 1101px) {
+	.wrap {
+		width: 1100px;
+		margin: 0 auto;
+	}
+
+	.can_box {
+		width: 920px;
+		overflow: hidden;
+		margin: 0 auto;
+	}
+
+	.can_nr {
+		width: 1000px;
+		overflow: hidden;
+	}
+
+	.can_img {
+		width: 263px;
+		float: left;
+		margin-right: 60px;
+	}
+
+	.can_nr .can_img2 {
+		margin-top: 80px;
+		transition: all 1s ease 0s;
+	}
+
+	.tui {
+		width: 100%;
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (min-width: 761px) and (max-width:1100px) {
+	.can_nr {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.foods {
+		width: 100%;
+	}
+
+	.foods_left,
+	.foods_right {
+		float: none;
+	}
+
+	.foods_left {
+		width: 95%;
+		margin: 0px auto 20px;
+	}
+	
+	.foods_right{
+		margin-left: 10px;
+	}
+}
+
+@media screen and (min-width: 641px) and (max-width:760px) {
+	.can_nr {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	.foods {
+		width: 100%;
+	}
+
+	.foods_left,
+	.foods_right {
+		float: none;
+	}
+
+	.foods_left {
+		width: 95%;
+		margin: 0px auto 20px;
+	}
+	
+	.foods_right{
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.can_nr {
+		width: 262px;
+		margin: 0 auto;
+		overflow: hidden;
+	}
+
+	.foods {
+		width: 100%;
+	}
+
+	.foods_left,
+	.foods_right {
+		float: none;
+	}
+
+	.foods_left {
+		width: 95%;
+		margin: 0px auto 20px;
+	}
+
+	.foods_right{
+		margin-left: 10px;
+	}
+}

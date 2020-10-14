@@ -139,7 +139,7 @@ footer {
 		width: 100%;
 	}
 
-	.con_right {
+	.con_right,.con_right1,.con_right2 {
 		width: 790px;
 		float: right;
 		overflow: hidden;

@@ -1,0 +1,17 @@
+.lists {
+	width: 100%;
+}
+
+.pcur {
+	background: rgba(249, 145, 146, .9);
+	color: #F73C3F;
+}
+
+.left_list .lists a {
+	width: 100%;
+	float: left;
+	height: 46px;
+	line-height: 46px;
+	font-size: 12px;
+	text-indent: 40px;
+}
