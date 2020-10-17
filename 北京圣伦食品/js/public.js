@@ -1,5 +1,5 @@
 $(function(){
-	$(".con_right:not(':first')").hide();
+	// $(".con_right:not(':first')").hide();
 	$(".left_list>a").click(function(){
 		$(this).addClass("active").siblings().removeClass("active");
 		$(this).children("span")
@@ -18,5 +18,7 @@ $(function(){
 		
 		$(".con_right").hide().eq($(this).index()).show();
 	})
+	
+	
 	
 })

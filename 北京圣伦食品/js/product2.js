@@ -17,19 +17,16 @@ $(function() {
 		$(".con_right1").hide();
 		$(".con_right2").hide();
 	})
-	$(".con_right:not(':first')").hide();
 	
 	$(".lists:eq(1) a").click(function(){
 		$(".con_right1").hide().eq($(this).index()).show();
 		$(".con_right").hide();
 		$(".con_right2").hide();
 	})
-	$(".con_right1").hide();
 
 	$(".lists:eq(2) a").click(function(){
 		$(".con_right2").hide().eq($(this).index()).show();
 		$(".con_right").hide();
 		$(".con_right1").hide();
 	})
-	$(".con_right2").hide();
 });
