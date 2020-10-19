@@ -1,4 +1,5 @@
 $(function() {
+	setPage(document.querySelector(".page"), 6, 1);
 	$(".left_list>a").click(function() {
 		$(this).next(".lists").slideToggle(300);
 	})

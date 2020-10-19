@@ -15,3 +15,30 @@
 	font-size: 12px;
 	text-indent: 40px;
 }
+
+.page {
+	width: 300px;
+	margin: 0 auto;
+}
+
+.page a {
+    display: inline-block;
+    padding: 2px 7px;
+    margin-left: 5px;
+    border: 1px solid #D8D8D8;
+	font-size: 12px;
+}
+
+.page a:hover,
+.page a.on {
+	background:#F73C3F;
+	color: #fff;
+}
+
+.page a.unclick,
+.page a.unclick:hover{
+	background: none;
+	border: 1px solid #eee;
+	color: #999;
+	cursor: default;
+}

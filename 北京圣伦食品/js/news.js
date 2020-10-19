@@ -23,26 +23,6 @@ function setPage(container, count, pageindex) {
 			setPageList();
 		}
 	}
-	//总页数大于10页
-	// else {
-	// 	if (pageindex <= 4) {
-	// 		for (var i = 1; i <= 5; i++) {
-	// 			setPageList();
-	// 		}
-	// 		a[a.length] = "...<a href=\"#\">" + count + "</a>";
-	// 	} else if (pageindex >= count - 3) {
-	// 		a[a.length] = "<a href=\"#\">1</a>...";
-	// 		for (var i = count - 4; i <= count; i++) {
-	// 			setPageList();
-	// 		}
-	// 	} else { //当前页在中间部分
-	// 		a[a.length] = "<a href=\"#\">1</a>...";
-	// 		for (var i = pageindex - 2; i <= pageindex + 2; i++) {
-	// 			setPageList();
-	// 		}
-	// 		a[a.length] = "...<a href=\"#\">" + count + "</a>";
-	// 	}
-	// }
 	if (pageindex == count) {
 		a[a.length] = "<a href=\"#\" class=\"next unclick\">下一页</a>";
 	} else {
@@ -108,7 +88,7 @@ function setPage(container, count, pageindex) {
 									`
 								<div class="clearfix">
 									<div class="rimg pleft">
-										<a href="#"><img src="${itemContent.images}" alt=""></a>
+										<a href="#"><img src="${itemContent[j].images}" alt=""></a>
 									</div>
 									<div class="rnr pleft">
 										<a href="#">
